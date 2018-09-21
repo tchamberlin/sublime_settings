@@ -94,8 +94,10 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Insert Nums",
 		"Markdown Table Formatter",
 		"MoveText",
+		"SideBarEnhancements",
 		"Vintage"
 	],
 	"ignored_words":

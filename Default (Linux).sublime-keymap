@@ -1,0 +1,131 @@
+[
+    // { "keys": ["ctrl+shift+m"], "command": "goto_definition" },
+    {
+        "command": "anaconda_goto", "keys": ["ctrl+shift+m"], "context": [
+            {"key": "selector", "operator": "equal", "operand": "source.python"}
+        ]
+    },
+
+    { "keys": ["f5"], "command": "revert" },
+
+    { "keys": ["ctrl+alt+s"], "command": "save_all" },
+    { "keys": ["ctrl+k", "ctrl+n"], "command": "sublimelinter_goto_error", "args": {"direction": "next"} },
+
+    // { "keys": ["ctrl+shift+n"], "command": "move_text_left" },
+    // { "keys": ["ctrl+shift+m"], "command": "move_text_right" },
+
+    // { "keys": ["ctrl+shift+c"], "command": "next_bookmark" },
+    // { "keys": ["ctrl+shift+z"], "command": "prev_bookmark" },
+    // { "keys": ["ctrl+shift+x"], "command": "toggle_bookmark" },
+    // { "keys": ["ctrl+shift+s"], "command": "clear_bookmarks" },
+    // { "keys": ["ctrl+shift+a"], "command": "select_all_bookmarks" },
+    { "keys": ["ctrl+k", "ctrl+r"], "command": "reindent", "args": {"single_line": false}},
+    { "keys": ["ctrl+k", "ctrl+m"], "command": "run_macro_file", "args": {"file": "res://Packages/User/curly_to_paren.sublime-macro"}},
+    // This defaults to "close window", but Alt+F4 already does that. Let's
+    // close all tabs instead. This is PER WINDOW, not per pane
+    { "keys": ["ctrl+shift+w"], "command": "close_all" },
+    // Close other tabs (non-current). This applies only to a pane
+    { "keys": ["ctrl+alt+shift+w"], "command": "close_others"},
+    // This has to go here because one of my packages seems to override it to
+    // something stupid
+    { "keys": ["ctrl+k", "ctrl+d"], "command": "find_under_expand_skip" },
+    { "keys": ["ctrl+k", "ctrl+p"], "command": "title_case" },
+    // Auto-pair backticks
+    {
+        "keys": ["`"],
+        "command": "insert_snippet",
+        "args": {"contents": "`$0`"},
+        "context": [
+            {
+
+                "key": "setting.auto_match_enabled",
+                "operator": "equal",
+                "operand": true 
+            },
+            {
+                "key": "selection_empty",
+                "operator": "equal",
+                "operand": true, "match_all": true 
+            },
+            {
+                "key": "following_text",
+                "operator": "regex_contains",
+                "operand": "^(?:\t| |\\)|]|;|\\}|$)",
+                "match_all": true 
+            }
+        ]
+    },
+    {
+        "keys": ["`"],
+        "command": "insert_snippet",
+        "args": {"contents": "`${0:$SELECTION}`"},
+        "context": [
+            {
+                "key": "setting.auto_match_enabled",
+                "operator": "equal",
+                "operand": true 
+            },
+            {
+                "key": "selection_empty",
+                "operator": "equal",
+                "operand": false, "match_all": true 
+            }
+        ]
+    },
+    {
+        "keys": ["`"],
+        "command": "move",
+        "args": {"by": "characters",
+        "forward": true},
+        "context": [
+            {
+                "key": "setting.auto_match_enabled",
+                "operator": "equal",
+                "operand": true 
+            },
+            {
+                "key": "selection_empty",
+                "operator": "equal",
+                "operand": true, "match_all": true 
+            },
+            {
+                "key": "following_text",
+                "operator": "regex_contains",
+                "operand": "^`",
+                "match_all": true 
+            }
+        ]
+    },
+    { 
+        "keys": ["backspace"],
+        "command": "run_macro_file",
+        "args": {"file": "Packages/Default/Delete Left Right.sublime-macro"},
+        "context": [
+            {
+                "key": "setting.auto_match_enabled", 
+                "operator": "equal", 
+                "operand": true 
+            },
+            {
+                "key": "selection_empty", 
+                "operator": "equal", 
+                "operand": true, "match_all": true 
+            },
+            {
+                "key": "preceding_text", 
+                "operator": "regex_contains", 
+                "operand": "`$", 
+                "match_all": true 
+            },
+            {
+                "key": "following_text", 
+                "operator": "regex_contains", 
+                "operand": "^`", 
+                "match_all": true
+            }
+        ]
+    },
+    { "keys": ["ctrl+k", "ctrl+i"], "command": "invert_selection" },
+    { "keys": ["ctrl+q"] , "command": null},
+    { "keys": ["ctrl+k", "ctrl+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"}}
+]
