@@ -6,10 +6,6 @@
 	"installed_packages":
 	[
 		"Alignment",
-		"AlignTab",
-		"Anaconda",
-		"ApacheConf",
-		"AutoFileName",
 		"Autotools",
 		"Babel",
 		"Babel Snippets",
@@ -21,7 +17,6 @@
 		"Duplicate Lines",
 		"EditorConfig",
 		"FileDiffs",
-		"Hermes",
 		"INI",
 		"Insert Nums",
 		"JSON Reindent",
@@ -42,7 +37,6 @@
 		"Python Pretty Print",
 		"requirementstxt",
 		"Restructured Text (RST) Snippets",
-		"RestructuredText Improved",
 		"Revert All Files",
 		"SelectUntil",
 		"SideBarEnhancements",

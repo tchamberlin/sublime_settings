@@ -48,11 +48,7 @@
 		"*.tga",
 		"*.ttf",
 		"*.vsdx",
-		"*.zip",
-		".nfs00000000058225ef00000c63",
-		"/home/sandboxes/tchamber/gbors/sandbox/gbors/tchamber-gbors-env/**",
-		"/home/sandboxes/tchamber/projects/sparrow/sandbox/sparrow/tchamber-sparrow-env/**",
-		"build/**"
+		"*.zip"
 	],
 	"close_windows_when_empty": false,
 	"color_scheme": "Packages/Color Scheme - Default/Breakers.sublime-color-scheme",
@@ -98,11 +94,16 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"AlignTab",
 		"Anaconda",
+		"ApacheConf",
 		"AutoFileName",
+		"Autotools",
+		"Case Conversion",
 		"Hermes",
 		"Markdown Preview",
 		"MarkdownPreview",
+		"Modific",
 		"RestructuredText Improved",
 		"SublimeHaskell",
 		"SublimeLinter-cppcheck",
@@ -119,7 +120,7 @@
 	{
 		"linux":
 		[
-			"/home/sandboxes/tchamber/venvs/twc_python3.6/bin",
+			"/home/sandboxes/monctrl/venvs/sublime-monctrl-py3-rhel7-env/bin",
 			"/home/gbors/node/bin"
 		]
 	},
