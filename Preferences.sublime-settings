@@ -1,0 +1,137 @@
+{
+	"added_words":
+	[
+		"linting",
+		"plugin",
+		"codebase",
+		"inline",
+		"admin",
+		"dropdown",
+		"metadata",
+		"backend",
+		"Bojan's",
+		"Chamberlin",
+		"Marganian",
+		"refactor",
+		"txt",
+		"wiki",
+		"docstring",
+		"docstrings",
+		"offline",
+		"Satoshi",
+		"Nakamoto",
+		"Bitcoin",
+		"whitepaper",
+		"bitcoin",
+		"Nakamoto's",
+		"Trustless",
+		"internet",
+		"blockchain",
+		"Django",
+		"Middleware",
+		"middleware"
+	],
+	"always_show_minimap_viewport": false,
+	"auto_complete_commit_on_tab": true,
+	"binary_file_patterns":
+	[
+		"*.dds",
+		"*.eot",
+		"*.gif",
+		"*.ico",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.pdf",
+		"*.png",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.vsdx",
+		"*.zip",
+		".nfs00000000058225ef00000c63",
+		"/home/sandboxes/tchamber/gbors/sandbox/gbors/tchamber-gbors-env/**",
+		"/home/sandboxes/tchamber/projects/sparrow/sandbox/sparrow/tchamber-sparrow-env/**",
+		"build/**"
+	],
+	"close_windows_when_empty": false,
+	"color_scheme": "Packages/Color Scheme - Default/Breakers.sublime-color-scheme",
+	"draw_minimap_border": true,
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		".jpg",
+		".jpeg",
+		".png",
+		".pdf",
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git"
+	],
+	"font_options":
+	[
+		"gray_antialias"
+	],
+	"font_size": 18,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Anaconda",
+		"AutoFileName",
+		"Hermes",
+		"Markdown Preview",
+		"MarkdownPreview",
+		"RestructuredText Improved",
+		"SublimeHaskell",
+		"SublimeLinter-cppcheck",
+		"Vintage"
+	],
+	"ignored_words":
+	[
+		"calseq",
+		"subrefpos"
+	],
+	"indent_to_bracket": true,
+	"overlay_scrollbar": "enabled",
+	"paths":
+	{
+		"linux":
+		[
+			"/home/sandboxes/tchamber/venvs/twc_python3.6/bin",
+			"/home/gbors/node/bin"
+		]
+	},
+	"rulers":
+	[
+		79
+	],
+	"shift_tab_unindent": true,
+	"show_encoding": true,
+	"show_full_path": true,
+	"show_line_endings": true,
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": false
+}

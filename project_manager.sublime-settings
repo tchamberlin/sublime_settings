@@ -1,0 +1,8 @@
+{
+    // A list of folders containing *.sublime-project files, e.g.,
+    // "projects_path": ["path/to/custom/Projects", "another_path/to/Projects"]
+    "projects_path": ["/home/sandboxes/tchamber/sublime_projects"],
+
+    // The string to use as the active indicator for the project list.
+    "active_project_indicator": " <open>",
+}
