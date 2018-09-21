@@ -94,19 +94,6 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"AlignTab",
-		"Anaconda",
-		"ApacheConf",
-		"AutoFileName",
-		"Autotools",
-		"Case Conversion",
-		"Hermes",
-		"Markdown Preview",
-		"MarkdownPreview",
-		"Modific",
-		"RestructuredText Improved",
-		"SublimeHaskell",
-		"SublimeLinter-cppcheck",
 		"Vintage"
 	],
 	"ignored_words":
