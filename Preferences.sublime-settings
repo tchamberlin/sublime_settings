@@ -29,7 +29,12 @@
 		"blockchain",
 		"Django",
 		"Middleware",
-		"middleware"
+		"middleware",
+		"intranet",
+		"Nano",
+		"templating",
+		"workflow",
+		"gauge"
 	],
 	"always_show_minimap_viewport": false,
 	"auto_complete_commit_on_tab": true,
@@ -48,7 +53,8 @@
 		"*.tga",
 		"*.ttf",
 		"*.vsdx",
-		"*.zip"
+		"*.zip",
+		"lib/**"
 	],
 	"close_windows_when_empty": false,
 	"color_scheme": "Packages/Color Scheme - Default/Breakers.sublime-color-scheme",
@@ -90,14 +96,19 @@
 	[
 		"gray_antialias"
 	],
-	"font_size": 18,
+	"font_size": 16,
+	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Insert Nums",
-		"Markdown Table Formatter",
-		"MoveText",
-		"SideBarEnhancements",
+		"Modific",
+		"PlainNotes",
+		"SnippetMaker",
+		"SublimeLinter-contrib-remark-lint",
+		"SublimeLinter-cppcheck",
+		"SublimeLinter-eslint",
+		"TypeScript",
 		"Vintage"
 	],
 	"ignored_words":
@@ -105,13 +116,13 @@
 		"calseq",
 		"subrefpos"
 	],
-	"indent_to_bracket": true,
+	"indent_to_bracket": false,
 	"overlay_scrollbar": "enabled",
 	"paths":
 	{
 		"linux":
 		[
-			"/home/sandboxes/monctrl/venvs/sublime-monctrl-py3-rhel7-env/bin",
+			"/home/sandboxes/tchamber/venvs/tchamber@pictor-tchamber-rhel7-python3-env/bin",
 			"/home/gbors/node/bin"
 		]
 	},

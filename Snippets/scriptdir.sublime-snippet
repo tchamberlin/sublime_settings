@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+scriptdir="\$(dirname "\$(readlink -f "\$0")")"
+]]></content>
+<tabTrigger>scriptdir</tabTrigger>
+<description>Insert scriptdir variable</description>
+<scope>source.shell.bash</scope>
+</snippet>

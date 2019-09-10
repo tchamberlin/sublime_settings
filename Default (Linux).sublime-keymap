@@ -126,6 +126,8 @@
         ]
     },
     { "keys": ["ctrl+k", "ctrl+i"], "command": "invert_selection" },
-    { "keys": ["ctrl+q"] , "command": null},
-    { "keys": ["ctrl+k", "ctrl+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"}}
+    { "keys": ["ctrl+q"] , "command": "null"},
+    { "keys": ["ctrl+k", "ctrl+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"}},
+    { "keys": ["ctrl+shift+space"], "command": "expand_selection", "args": {"to": "scope"} },
+    { "keys": ["alt+d"], "command": "find_all_under" },
 ]

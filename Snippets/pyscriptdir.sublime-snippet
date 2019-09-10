@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+from pathlib import Path
+SCRIPT_DIR = Path(__file__).resolve().parent
+]]></content>
+<tabTrigger>scriptdir</tabTrigger>
+<description>Python 3.4+ method for getting path of script</description>
+<scope>source.python, meta.class.inheritance.python, entity.other.inherited-class.python</scope>
+</snippet>

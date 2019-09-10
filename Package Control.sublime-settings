@@ -6,12 +6,14 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"AlignTab",
 		"Autotools",
 		"Babel",
 		"Babel Snippets",
 		"BracketHighlighter",
 		"C++ Starting Kit",
 		"Case Conversion",
+		"Color Highlighter",
 		"Diffy",
 		"Djaneiro",
 		"Duplicate Lines",
@@ -19,14 +21,17 @@
 		"FileDiffs",
 		"INI",
 		"Insert Nums",
+		"IPython Notebook",
 		"JSON Reindent",
 		"LaTeX Word Count",
+		"LiveReload",
 		"Markdown HTML Preview",
 		"Markdown Table Formatter",
 		"MarkdownPreview",
 		"Modific",
 		"MoveTab",
 		"MoveText",
+		"Multi Select Alphabetizer",
 		"nginx",
 		"Origami",
 		"Package Control",
@@ -40,9 +45,16 @@
 		"Revert All Files",
 		"SelectUntil",
 		"SideBarEnhancements",
+		"SnippetMaker",
 		"Sort Lines (Numerically)",
+		"StandardFormat",
 		"sublack",
+		"sublime-mermaid",
+		"sublime-standard-format",
 		"SublimeLinter",
+		"SublimeLinter-contrib-remark-lint",
+		"SublimeLinter-contrib-standard",
+		"SublimeLinter-contrib-yamllint",
 		"SublimeLinter-cppcheck",
 		"SublimeLinter-csslint",
 		"SublimeLinter-eslint",
@@ -50,6 +62,13 @@
 		"SublimeLinter-pylint",
 		"SublimeLinter-shellcheck",
 		"Table Cleaner",
-		"Trimmer"
+		"TOML",
+		"Trimmer",
+		"TypeScript"
+	],
+	"repositories":
+	[
+		"https://github.com/hlfcoding/sublime-mermaid",
+		"https://github.com/bcomnes/sublime-standard-format"
 	]
 }

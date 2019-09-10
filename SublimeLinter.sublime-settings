@@ -1,7 +1,19 @@
 {
+    "debug": true,
     "paths": {
-        "linux": ["/home/sandboxes/monctrl/venvs/sublime-monctrl-py3-rhel7-env/bin"],
+        "linux": ["/home/sandboxes/tchamber/venvs/tchamber@pictor-tchamber-rhel7-python3-env/bin", "/home/gbors/node/bin"],
         "osx": [],
         "windows": []
+    },
+    "linters": {
+        // The name of the linter you installed
+        "standard": {
+            // Additional arguments for the command line. Either a string
+            // or an array. If set to a string, we 'shlex.split' it*.
+            // E.g. '--ignore D112' or ['--config', './.config/foo.ini']
+            //
+            // * Note: Use proper quoting around paths esp. on Windows!
+            "args": ["--env", "mocha", "--parser", "babel-eslint"],
+        }
     }
 }
